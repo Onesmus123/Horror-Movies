@@ -1,15 +1,16 @@
 {
+  "dependencies": {
+    "tailwindcss": "^3.4.3"
+  },
   "name": "tailwind-proj",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "tailwind.config.js",
   "scripts": {
-    "build-css": "tailwindcss build src/styles.css -o public/styles.css"
+    "build-css": "tailwindcss build -i src/styles.css -o public/styles.css -w"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "tailwindcss": "^3.4.3"
-  }
+  "devDependencies": {},
+  "description": ""
 }
